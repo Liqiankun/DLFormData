@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      body {
+        background-color: white;
+        color: #333;
+        width: 100%;
+      }
+
+      .result-img {
+        margin: 150px auto 0 auto;
+        width: 180px;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 50px;
+        margin-top: 40px;
+      }
+
+      .container {
+        width: 75%;
+        box-sizing: border-box;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class='container'>
+      <% if(success){ %>
+        <img src='/images/success.png' class='result-img'>
+        <h2>提交成功</h2>
+      <% } else { %>
+        <img src='/images/fail.png' class='result-img'>
+        <h2>提交失败</h2>
+      <% } %>
+    </div>
+  </body>
+</html>

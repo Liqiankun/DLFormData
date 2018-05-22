@@ -1,0 +1,119 @@
+body {
+  background-color: white;
+  color: #333;
+  width: 100%;
+}
+
+.result-img {
+  margin: 150px auto 0 auto;
+  width: 180px;
+}
+
+h2 {
+  color: #333;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 50px;
+  box-shadow: 0;
+}
+
+form {
+  float:left;
+}
+
+.container {
+  width: 75%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container img {
+  width: 60%;
+  margin-top: 100px;
+}
+
+.form-ctn {
+  width: 80%;
+  margin: 100px auto 0 auto;
+  text-align: center;
+}
+
+.form-group {
+  width: 100%;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  display:block;
+}
+
+.form-control {
+  width: 100%;
+  height: 80px;
+  font-size: 40px;
+  padding: 10px;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 100%;
+  height: 120px;
+  font-size: 40px;
+  background-color: #359BE0;
+  border-radius: 10px;
+  margin: 40px auto 0 1.6%;
+  color: white;
+  border: 0;
+}
+
+.btn-ctn {
+  padding: 0 0 40px 0;
+}
+
+input:focus {
+  border: 2px solid #359BE0;
+  box-shadow: none;
+}
+
+select {
+  background-color: white;
+  border: 2px solid #e5e5e5;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 40px;
+  padding: 10px;
+  margin: 0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select::-ms-expand {
+  display: none; /* hide the default arrow in ie10 and ie11 */
+}
+
+.select {
+  width: 100%;
+  height: 80px;
+}

@@ -48,14 +48,14 @@ form {
 }
 
 .container img {
-  width: 60%;
+  width: 75%;
   margin-top: 100px;
 }
 
 .form-ctn {
   width: 80%;
-  margin: 100px auto 0 auto;
-  text-align: center;
+  margin: 65px auto 0 13%;
+  background-color: blue;
 }
 
 .form-group {

@@ -1,8 +1,8 @@
 body {
-  background-color: white;
   color: #333;
-  width: 100%;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .result-img {
@@ -39,44 +39,38 @@ textarea {
 
 
 .container {
-  display: block;
   width: 75%;
-  box-sizing: border-box;
   margin: 0 auto;
-  text-align: center;
 }
 
 .container img {
   width: 75%;
   margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .form-ctn {
   display: block;
   width: 80%;
   text-align: center;
-  margin: 50px auto 0 auto;
+  margin: 100px auto 0 auto;
 }
 
 .form-group {
   width: 100%;
   margin: 50px auto 0 auto;
   text-align: center;
-  display:block;
 }
 
 .form-control {
-  width: 100%;
+  width: 99%;
   height: 80px;
   font-size: 40px;
   padding: 10px;
   box-sizing: border-box;
   border: 2px solid #e5e5e5;
   border-radius: 10px;
-}
-
-form {
-  display: table-cell;
 }
 
 .btn {

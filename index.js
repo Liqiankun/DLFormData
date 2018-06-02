@@ -17,6 +17,6 @@ app.use(methodOverride('_method'))
 app.use(formRoutes)
 
 
-app.listen(80, '172.17.65.140', function () {
+app.listen(22, '172.17.65.140', function () {
   console.log('YelpCamp server has started!')
 })

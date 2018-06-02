@@ -16,6 +16,8 @@ app.use(methodOverride('_method'))
 
 app.use(formRoutes)
 
+console.log('port', process.env.PORT, process.env.IP)
+
 app.listen(process.env.PORT || 5000, process.env.IP, function () {
   console.log('YelpCamp server has started!')
 })

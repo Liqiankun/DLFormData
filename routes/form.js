@@ -100,7 +100,6 @@ router.get('/excel', function(req, res) {
           }
         ]
       )
-
       res.attachment('report.xlsx')
       return res.send(report)
     }

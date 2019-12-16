@@ -1,30 +1,17 @@
 <% include footerHeader/header.ejs %>
 <img src='/images/logo.png'>
-  <form action="/" method="post" align='center' class='form-ctn'>
-    <div class='form-group'>
-      <input class='form-control' type="text" name="data[name]" placeholder="姓名" required>
-    </div>
-    <div class='form-group'>
-      <input class='form-control' type="email" name="data[email]" placeholder="邮箱" required>
-    </div>
-    <div class='form-group'>
-      <input class='form-control' type="text" name="data[company]" placeholder="公司" required>
-    </div>
-    <div class='form-group'>
-      <select name="data[company_type]" class='select' required>
-        <option value="保险公司">保险公司</option>
-        <option value="分保公司">分保公司</option>
-        <option value="保险经纪公司">保险经纪公司</option>
-        <option value="科技公司">科技公司</option>
-        <option value="顾问公司">顾问公司</option>
-        <option value="其他公司">其他公司</option>
-      </select>
-    </div>
-    <div class='form-group'>
-      <input class='form-control' type="text" name="data[position]" placeholder="职位" required>
-    </div>
-    <div class='btn-ctn form-group'>
-      <button class='btn' type="submit">提交信息</button>
-    </div>
-  </form>
+<form action="/" method="post" align='center' class='form-ctn'>
+  <div class='form-group'>
+    <input class='form-control' type="text" name="data[name]" placeholder="姓名" required>
+  </div>
+  <div class='form-group'>
+    <input class='form-control' type="email" name="data[email]" placeholder="邮箱" required>
+  </div>
+  <div class='form-group'>
+    <input class='form-control' type="text" name="data[company]" placeholder="公司" required>
+  </div>
+  <div class='btn-ctn form-group'>
+    <button class='btn' type="submit">提交信息</button>
+  </div>
+</form>
 <% include footerHeader/footer.ejs %>
